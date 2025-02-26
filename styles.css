@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gourmet Spot - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@gourmetspotitaly.com</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Address: 123 Via Roma, Florence, Italy</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 The Gourmet Spot | Grazie mille!</p>
+    </footer>
+</body>
+</html>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: #008000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.hero, .menu, .contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero {
+    background: url('images/bruschetta.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.menu {
+    background: url('images/lasagna.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.contact {
+    background: url('images/tiramisu.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    background: #cc0000;
+    color: #fff;
+    padding: 10px 0;
+}
